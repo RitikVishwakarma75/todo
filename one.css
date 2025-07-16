@@ -1,0 +1,67 @@
+body {
+    background: #f8f9fa;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  h1 {
+    font-weight: 700;
+    color: #212529;
+  }
+
+  .list-group-item {
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    margin-bottom: 12px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .list-group-item:hover {
+    background-color: #e9f5ff;
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+
+  #todoForm input {
+    border-radius: 0.375rem;
+  }
+
+  #todoForm button {
+    border-radius: 0.375rem;
+  }
+
+  .pagination .page-link {
+    color: #0d6efd;
+    border-radius: 0.3rem;
+  }
+
+  .pagination .page-item.active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+  }
+
+  #loader {
+    margin-top: 30px;
+  }
+
+  .alert {
+    margin-bottom: 20px;
+  }
+
+  #fromDate,
+  #toDate {
+    border-radius: 0.375rem;
+  }
+
+  .container {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  }
+
+  @media (max-width: 576px) {
+    .row > div {
+      margin-bottom: 10px;
+    }
+  }
